@@ -22,7 +22,7 @@
 - HTML5.
 - El HTML ha de ser semántico.
 - Los iconos han de ser en formato SVG.
-- Uso de la metodología BEM para crear los bloques (objetos).
+- Uso de la metodología BEM para crear los bloques (componentes).
 - La columna del formulario se muestra con un efecto de deslizamiento + desvanecimiento. La misma se ocultará con una animación inversa.
 
 ## Requisitos CSS:
@@ -36,9 +36,9 @@
   
 ## Requisitos Javascript:
 
-- Solo se puede utilizar Javascript o JQuery
-- Se puede utilizar cualquier recurso propio o externo a excepción de frameworks como Angular
-- En el fichero `main.js` esta definida una variable `contacts` que contiene el array de contactos que se tiene que pintar en la web. En esta variable es donde se deberan añadir los contactos nuevos, borrarlos o editar los contactos.
+- Solo se puede utilizar Javascript o JQuery.
+- Se puede utilizar cualquier recurso propio o externo a excepción de frameworks como Angular.
+- En el fichero `main.js` esta definida una variable `contacts` que contiene el array de contactos que se tiene que pintar en la web. En esta variable es donde se deberán añadir, borrar o editar los contactos.
  
 
 
