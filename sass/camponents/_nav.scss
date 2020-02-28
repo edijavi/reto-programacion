@@ -1,0 +1,16 @@
+.navbar {
+  background-color:#5D6E6A;
+
+  &__item {
+    display:block;
+    padding:8px 20px;  
+    transition: background-color 1.5s;
+    color: #4A4A4A;
+
+
+    &:hover{
+      background-color: rgba(255, 255, 255, 1)
+    }
+    
+  }
+}

@@ -239,4 +239,6 @@ const contacts = [
       "phone": "607 123 456",
       "group": "amigos"
     }
-  ]
+  ];
+
+  const arrayOrden = contacts.fin
