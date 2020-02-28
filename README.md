@@ -1,5 +1,7 @@
 # Libreta de contactos
 
+![](/screens/1 - Detalle.png)
+
 ## Características generales de la aplicación:
 - Diseño fluido (full width).
 - En la columna izquierda se encuentran los grupos al que pueden pertenecer los contactos: cada contacto puede pertenecer a un solo grupo.
