@@ -1,6 +1,6 @@
 # Libreta de contactos
 
-![](screens/1 - Detalle.png)
+![](screens/1-detalle.png)
 
 ## Características generales de la aplicación:
 - Diseño fluido (full width).
