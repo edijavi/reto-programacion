@@ -38,7 +38,7 @@
   
 ## Requisitos Javascript:
 
-- Solo se puede utilizar Javascript o JQuery.
+- Solo se puede utilizar Javascript.
 - Se puede utilizar cualquier recurso propio o externo a excepción de frameworks como Angular.
 - En el fichero `main.js` esta definida una variable `contacts` que contiene el array de contactos que se tiene que pintar en la web. En esta variable es donde se deberán añadir, borrar o editar los contactos.
  
