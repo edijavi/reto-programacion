@@ -1,13 +1,31 @@
-.contact {
+.contact {  
+  &__list {
+    padding: 27px 0 10px 18px;
+
+    li:hover {
+      background-color: #EBF0EF;
+      cursor: pointer;
+    }
+  } 
   
-  padding: 22px 8px;   
+  .form__group {
+    margin-top: rem(23px);
+    margin-left: rem(18px);
+
+    .form__label {
+      position: absolute;
+    }
+
+    .form__control{
+      background: #FFFFFF;
+      border: 1px solid #DADADA;
+      box-sizing: border-box;
+      border-radius: rem(18.5px);
+      height: rem(37px);
+      width: rem(223px);
+    }
+  }
 }
 
-.form__control{
-  background: #FFFFFF;
-  border: 1px solid #DADADA;
-  box-sizing: border-box;
-  border-radius: rem(18.5px);
-  height: rem(37px);
-  width: rem(223px);
-}
+
+

@@ -4,6 +4,14 @@ body {
   font-family: 'Roboto', serif;
   line-height: 1.65;
 }
+li {
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: rem(32px);
+  color: #333333;
+}
 
 input::placeholder {
   color: #9b9b9b;
