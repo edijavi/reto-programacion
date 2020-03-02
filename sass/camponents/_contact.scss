@@ -1,5 +1,13 @@
 .contact {
-  display: flex;
-  flex-direction: column;
+  
   padding: 22px 8px;   
+}
+
+.form__control{
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: rem(18.5px);
+  height: rem(37px);
+  width: rem(223px);
 }

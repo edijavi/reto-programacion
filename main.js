@@ -252,6 +252,17 @@ const contacts = [
     return 0;
   });
 
-  console.log(arrayOrdenado);
+  function showArrayList(myArray) {
+    var list = document.createElement('ul');
+    for(var i = 0; i < myArray.length; i++) {
+        var item = document.createElement('li');
+        item.appendChild(document.createTextNode(myArray[i]));
+        list.appendChild(item);
+    }
+    return list;
+}
+
+document.getElementById('contact-list').appendChild(showArrayList(arrayOrdenado.map(a => a.name + a.surname)));
+
   
   
