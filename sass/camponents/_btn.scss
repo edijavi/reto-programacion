@@ -1,22 +1,39 @@
-.btn {
-  display: inline-block;
-  border: 0;
-  border-radius: 4px;
-  margin: 10px 5px;
-  padding: 8px 16px;
-  font-size: 0.865rem;
-  font-weight: bold;
-  cursor: pointer;
-  background-color: #fff; 
-  color: $color-default;
+/* BUTTON */
 
-  @include media(md) {
-    color: $color-primary;
-    
-  }
-  
-  @include media(lg) {
-    color: $color-secondary;
-    
-  }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 7.438rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 3px;
+  padding: 5px 15px;
+  background-color: #eee;
+  color: #333;
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn + .btn {
+  margin-left: 1rem;
+}
+
+.btn--success {
+  background-color: #73bf19;
+  color: #fff;
+}
+
+.btn--sm {
+  min-width: 0;
+  height: 2rem;
+  padding-right: 18px;
+  padding-left: 18px;
+  font-size: 0.813rem;
 }

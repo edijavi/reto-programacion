@@ -7,14 +7,53 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <main>
-    <nav class="navbar">
-      <a class="navbar__item" href="#">Todos los contactos</a>
-      <a class="navbar__item" href="#">Favoritos</a>
-      <a class="navbar__item" href="#">Amigos</a>
-      <a class="navbar__item" href="#">Familia</a>
-      <a class="navbar__item" href="#">Trabajo</a>
-    </nav>
+  <main >
+    <div class="container">
+      <nav class="navbar">
+        <a class="navbar__item" href="#">Todos los contactos</a>
+        <a class="navbar__item" href="#">Favoritos</a>
+        <a class="navbar__item" href="#">Amigos</a>
+        <a class="navbar__item" href="#">Familia</a>
+        <a class="navbar__item" href="#">Trabajo</a>
+      </nav>
+  
+      <form action="#" class="contact">
+        <div class="form__group">
+          <label for="search" class="form__label">Buscar</label>
+          <input type="search" id="search" class="form__control">
+        </div>
+        <div class="form__list">
+          <li>a</li>
+          <li>b</li>
+          <li>c</li>
+          <li>d</li>
+        </div>      
+      </form>
+  
+      <!-- Card -->
+      <article class="card">
+        <div class="card__icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <title>User icon</title>
+            <path
+              d="M26.753 21.693a.448.448 0 01.482-.041l7.022 3.702c.452.238.816.63 1.023 1.102l4.524 10.323a2.308 2.308 0 01-.17 2.179A2.248 2.248 0 0137.736 40H2.263c-.768 0-1.477-.39-1.896-1.042a2.308 2.308 0 01-.171-2.179L4.72 26.456c.208-.472.57-.864 1.023-1.102l7.022-3.702a.448.448 0 01.482.04c1.986 1.522 4.321 2.326 6.753 2.326 2.432 0 4.767-.804 6.753-2.325zM20.2 0c4.97 0 9 2.435 9 10.4 0 5.744-4.03 10.4-9 10.4s-9-4.656-9-10.4c0-7.965 4.03-10.4 9-10.4z"
+              fill="currentColor" fill-rule="nonzero" />
+          </svg>
+        </div>
+        <div class="card__body">
+          <address class="card__address">
+            <b class="card__name">Cesar Drake</b>
+            <b class="card__category">Amigos</b>
+            <b class="card__email">cesar.drake@gmail.com</b>
+            <b class="card__tlf">+34 607 123 456</b>
+           </address>
+          <button type="button" class="btn btn--sm">Editar</button>
+          <button type="button" class="btn btn--sm">+</button>
+        </div>
+      </article> <!-- //.card -->
+      
+    </div>
+
   </main>
   
   <script src="/main.js"></script>
